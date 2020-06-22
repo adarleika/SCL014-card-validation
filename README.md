@@ -67,4 +67,5 @@ https://adarleika861925.invisionapp.com/overview/TDC-ckbmzbw8u0ls5015zckwm9jh5/s
 
 
 
-![page](https://github.com/adarleika/SCL014-card-validation/master/img/chip2.jpeg)
+![page](https://user-images.githubusercontent.com/49289372/85327094-5c05c000-b49c-11ea-960c-7e935e008cfa.png)
+
