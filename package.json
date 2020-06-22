@@ -2,7 +2,9 @@
   "name": "card-validation",
   "version": "1.0.0",
   "main": "src/index.html",
-  "license": "MIT",
+  "license": "MIT", 
+  "homepage": "https://github.com/adarleika.github.io/SCL014-card-validation",
+
   "scripts": {
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
