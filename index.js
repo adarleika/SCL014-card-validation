@@ -104,12 +104,12 @@ validator.maskify(masked_str);
 if(valorInput[0] == 4){
   logoMarca.innerHTML = '';
   const imagen = document.createElement('img');
-  imagen.src = '/img/visa.png';
+  imagen.src = 'visa.png';
   logoMarca.appendChild(imagen);
 } else if(valorInput[0] == 5){
   logoMarca.innerHTML = '';
   const imagen = document.createElement('img');
-  imagen.src = '/img/mastercard.png';
+  imagen.src = 'mastercard.png';
   logoMarca.appendChild(imagen);
 }
 
