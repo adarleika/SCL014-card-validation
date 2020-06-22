@@ -1,7 +1,7 @@
 import validator from './validator.js';
 
 
-console.log(validator);
+//console.log(validator);
 
 
 //interaccion del DOM
@@ -9,12 +9,12 @@ const formulario = document.querySelector('#formulario-tarjeta');
 formulario.inputNumero.addEventListener("keyup", (e) => {
 
 
-  console.log (e);
-  console.log (e.target.value);
+  //console.log (e);
+  //console.log (e.target.value);
   //aqui ya podriamos ver el numero completo /console.log (e.target.value);
 
     var valorNumeroArreglo = e.target.value;
-    console.log (valorNumeroArreglo);
+    //console.log (valorNumeroArreglo);
 
     validator.isValid(valorNumeroArreglo);
  
@@ -22,9 +22,8 @@ formulario.inputNumero.addEventListener("keyup", (e) => {
 
 
 
-const tarjeta = document.querySelector('#tarjeta'),
-
-btnAbrirFormulario = document.querySelector('#btn-abrir-formulario'),
+//const tarjeta = document.querySelector('#tarjeta'),
+const btnAbrirFormulario = document.querySelector('#btn-abrir-formulario'),
 //btnEnviarFormulario = document.querySelector('btn-enviar'),
 //formulario = document.querySelector('#formulario-tarjeta'),
 numeroTarjeta = document.querySelector('#tarjeta .numero'),
@@ -45,7 +44,7 @@ btnAbrirFormulario.addEventListener('click', () => {
 
 // selector del Mes
 for ( let i=1; i <= 12; i++){
-console.log (i);
+//console.log (i);
 let opcion= document.createElement ("option");
 opcion. value=i;
 opcion.innerText=i;
@@ -56,7 +55,7 @@ formulario.selectMes.appendChild(opcion);
 // selector del año
 const yearActual = new Date ().getFullYear ();
 for (let i=yearActual ; i<= yearActual+4; i++){
-console.log (i);
+//console.log (i);
 let opcion = document.createElement("option");
 opcion.value=i;
 opcion.innerText= i;
@@ -70,7 +69,7 @@ formulario.selectYear.appendChild(opcion);
 
 formulario.inputNumero.addEventListener("keyup", (e) => {
 
-console.log (e);
+//console.log (e);
 //aqui ya podriamos ver el numero completo /console.log (e.target.value);
 
 let valorInput = e.target.value;
@@ -95,7 +94,6 @@ logoMarca.innerHTML = '';
 }
 
 else{
-  
   
 validator.maskify(masked_str);
 
