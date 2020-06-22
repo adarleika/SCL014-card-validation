@@ -26,6 +26,7 @@ Elaboramos los prototipos que nos permitieron probar nuestras ideas con los usua
 
 1.	En lápiz  y papel = Prototipado de Contenido 
 * Primeros prototipo de contenido: 
+
 ![scketch1](https://user-images.githubusercontent.com/49289372/85343832-f9242100-b4bb-11ea-8022-fd915ac8b1d3.png)
 
 ![scketch2](https://user-images.githubusercontent.com/49289372/85343846-093c0080-b4bc-11ea-8f08-3ec4e0f4599d.jpg)
@@ -45,7 +46,7 @@ Primer prototipo de alta fidelidad =
 
 ![prototipo1](https://user-images.githubusercontent.com/49289372/85344037-8e271a00-b4bc-11ea-9cd2-45770870bb4b.jpg)
 
-Prototipo  final 
+Prototipo  final en figma 
 https://www.figma.com/file/sp9IPJYRkAlY05nMA7XsnY/Tarjeta-de-Credito?node-id=0%3A1
 
 Prototipo de la imagen de las tarjetas 
