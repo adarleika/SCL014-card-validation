@@ -1,5 +1,6 @@
 import validator from './validator.js';
 
+
 console.log(validator);
 
 
@@ -7,36 +8,24 @@ console.log(validator);
 const formulario = document.querySelector('#formulario-tarjeta');
 formulario.inputNumero.addEventListener("keyup", (e) => {
 
+
   console.log (e);
   console.log (e.target.value);
   //aqui ya podriamos ver el numero completo /console.log (e.target.value);
 
-  
     var valorNumeroArreglo = e.target.value;
-   
-
     console.log (valorNumeroArreglo);
 
-   //var valorNumeroArreglo = document.getElementById("inputNumero");
-   
-
+    validator.isValid(valorNumeroArreglo);
  
- 
-
-});
-
-
-
-
-
-
-
+ });
 
 
 
 const tarjeta = document.querySelector('#tarjeta'),
 
 btnAbrirFormulario = document.querySelector('#btn-abrir-formulario'),
+//btnEnviarFormulario = document.querySelector('btn-enviar'),
 //formulario = document.querySelector('#formulario-tarjeta'),
 numeroTarjeta = document.querySelector('#tarjeta .numero'),
 nombreTarjeta = document.querySelector('#tarjeta .nombre'),
@@ -47,7 +36,10 @@ yearExpiracion = document.querySelector('#tarjeta .year');
 btnAbrirFormulario.addEventListener('click', () => {
   btnAbrirFormulario.classList.toggle('active');
   formulario.classList.toggle('active');
+
+
 });
+
 
 
 
@@ -82,30 +74,35 @@ console.log (e);
 //aqui ya podriamos ver el numero completo /console.log (e.target.value);
 
 let valorInput = e.target.value;
-
-
 formulario.inputNumero.value = valorInput
 // ojo que aqui en los replace si influye las dobles comillas, por lo que hay que poner una sola comilla'' si poneer "" cambia el resultado 
 // elimiar espacios que esten en blanco
 .replace(/\s/g, '')
-
 // elimiar letras
 .replace(/\D/g, '')
-// ponemos espacios cada 4 numeros
-//.replace(/([0-9]{4})/g, '$1 ')
 // ponemos este metodo para eliminar el ultimoespaciado de la cadena
 .trim();
 
 // es para visualizar en la pagina el numero de tarjeta   
-
 numeroTarjeta.textContent = valorInput;
+  var masked_str = valorInput;
 // cuando la persona borre lo escrito y que no se corra la palabra numero de tarjeta 
 if(valorInput == ''){
   numeroTarjeta.textContent ='#### #### #### ####'
+   
 // descargar las imagenes de los logo
 logoMarca.innerHTML = '';
+}
+
+else{
+  
+  
+validator.maskify(masked_str);
 
 }
+
+
+
 if(valorInput[0] == 4){
   logoMarca.innerHTML = '';
   const imagen = document.createElement('img');
@@ -128,6 +125,7 @@ formulario.inputNombre.value = valorInput.replace(/[0-9]/g, '');
 nombreTarjeta.textContent = valorInput; 
 if(valorInput ==''){
   nombreTarjeta.textContent = 'xxxxx xxxxx';
+  
 }
 
 
@@ -144,4 +142,3 @@ formulario.selectYear.addEventListener('change', (e) => {
 yearExpiracion.textContent = e.target.value.slice(2);
 
 });
-

@@ -1,21 +1,32 @@
 const validator = {
 
-//Se enmascarar el numero de la tarjeta dejando ultimos 4 digitos sin enmascarar
-maskify : (valorInput) =>{
-  var numeral = "#"; //se define el simbolo con q se enmascara los numeros
-  var tarjetaEnmascarada = valorInput.slice(-4) //Se obtine los ultimos 4 digitos de la tarjeta
-  if (valorInput.length > 4 ){ //si el largo de la tarjeta es mayor a 4 se enmascara
-      /*Repite el numero de la tarjeta enmascardo exepto los ultimos 4*/
-      tarjetaEnmascarada = numeral.repeat(valorInput.length-4) + valorInput.slice(-4) 
-  }
-  return tarjetaEnmascarada;
-},
 
+ 
+maskify:(valorInput) =>{
 
-isvalid:(valorInput) =>{
-
+  var valorNumeroArreglo = valorInput;
+  var digitos = valorNumeroArreglo.slice(-4);
+  var mask_simbolo = "#";
+  var masked_str = mask_simbolo.repeat(12) + digitos;
   
-  let valorNumeroArreglo = valorInput.toString().split("")
+  document.querySelector(".numero").innerHTML = masked_str;
+  console.log("este es el numero de tu tarjeta " + masked_str);
+
+ },
+ 
+
+ isValid:(valorInput) =>{
+
+  //console.log(typeof valorInput);
+  let valorNumeroArreglo = valorInput.split("");
+  //var arrInvertido=valorNumeroArreglo.reverse();
+     //console.log('este es el reverso: '+arrInvertido);
+
+  var prod = 1;
+  var resul = 0;
+  var sum = 0;
+  var capa;
+ 
     //Recorro mi arreglo posición a posición para realizar el algoritmo de Luhn
     for(var i = 0; i < valorNumeroArreglo.length; i++){
      //Determino si una posición es par
@@ -50,23 +61,29 @@ isvalid:(valorInput) =>{
     if(sum%10===0){
       //Si es divisible muestra que es un  tarjeta válida.
        //return msg = "Tarjeta de crédito valida";
-       console.log("tarjeta de credito valida");
+       var capa = document.getElementById ("validacion")
+       console.log("Tarjeta de Credito Valida");
+       capa.innerHTML = "Tarjeta de Credito Valida"
    }else{
       //Si no es divisible entre 10 muestra tarjeta no válida
        //return msg = "Tarjeta de crédito no valida";
-       console.log("tarjeta de credito invalida");
+       var capa = document.getElementById ("validacion")
+       console.log("Tarjeta de Credito Invalida");
+       capa.innerHTML = "Tarjeta de Credito Invalida"
    }
 
+   
    //return msg;
-
-  //}
-  
-    //document.write('<br> '+ isValid(valorInput));
-
-    //console.log(isValid(valorInput));
   }
-  
+    //document.write('<br> '+ isValid(valorNumeroArreglo));
+    //console.log(isValid(valorInput));
+  //}
 
+
+
+  
 };
+
+
 
 export default validator;
