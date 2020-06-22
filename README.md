@@ -64,4 +64,5 @@ https://adarleika861925.invisionapp.com/overview/TDC-ckbmzbw8u0ls5015zckwm9jh5/s
 • Ocultar todos los dígitos de su número de tarjeta menos los últimos 4 caracteres.
 • No debe poder ingresar un campo vacío.
 
-https://github.com/adarleika/SCL014-card-validation/blob/master/img/mastercard.png
+
+![Optional Text](https://github.com/adarleika/SCL014-card-validation/master/img/chip2.jpeg)
