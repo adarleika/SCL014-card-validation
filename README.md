@@ -3,7 +3,6 @@
 Nuestro proyecto trata de una aplicación que permite a su usuario conocer si su tarjeta de crédito es válida para poder realizar compras en el comercio electrónico, específicamente a supermercados; quienes son los que pondrán a disposición de los usuarios esta aplicación para que ellos puedan utilizarla a través de ventas Online.
 
 
-
 # Detalles de la investigación UX
 
 Nuestro primer acercamiento al diseño de experiencia de usuario a través de este proyecto, lo comentaremos en etapas; 
@@ -26,24 +25,32 @@ https://www.vccgenerator.com/es/validador-de-tarjeta-de-credito/
 Elaboramos los prototipos que nos permitieron probar nuestras ideas con los usuarios.
 
 1.	En lápiz  y papel = Prototipado de Contenido 
-Primeros prototipo de contenido: https://imgur.com/F4eP60W
-                                 https://imgur.com/k84QQ3z
-                                 https://imgur.com/f8GjMJQ
+* Primeros prototipo de contenido: 
+![scketch1](https://user-images.githubusercontent.com/49289372/85343832-f9242100-b4bb-11ea-8022-fd915ac8b1d3.png)
 
-Segundo prototipo de contenido:  https://imgur.com/eYwGPnc
+![scketch2](https://user-images.githubusercontent.com/49289372/85343846-093c0080-b4bc-11ea-8f08-3ec4e0f4599d.jpg)
+
+![scketch3](https://user-images.githubusercontent.com/49289372/85343863-1527c280-b4bc-11ea-844e-856f68dfb16d.jpg)
+
+
+Segundo prototipo de contenido:  
+![scketch4](https://user-images.githubusercontent.com/49289372/85343894-22dd4800-b4bc-11ea-8955-ab7836bf9934.png)
 
 2.	Invision = Prototipado de Baja Fidelidad
 
 https://adarleika861925.invisionapp.com/console/tarjeta-ckb81kiem00p001aqmis5ea14/ckb86rkms00ox018zkxqoo6bq/comment
 
 3.	Figma =  Prototipado de alta  Fidelidad
-Primer prototipo de alta fidelidad = https://imgur.com/kyiUPmH
+Primer prototipo de alta fidelidad = 
+
+![prototipo1](https://user-images.githubusercontent.com/49289372/85344037-8e271a00-b4bc-11ea-9cd2-45770870bb4b.jpg)
 
 Prototipo  final 
 https://www.figma.com/file/sp9IPJYRkAlY05nMA7XsnY/Tarjeta-de-Credito?node-id=0%3A1
 
 Prototipo de la imagen de las tarjetas 
-https://imgur.com/Xu1psZI
+
+![prototipo2](https://user-images.githubusercontent.com/49289372/85344090-aac35200-b4bc-11ea-9d96-6de6a84f29a1.jpg)
 
 TESTEO DE USUARIOS: Esta fue la etapa más dura, ya que probamos nuestros prototipos con usuarios reales para recibir su feedback.
 Primer testeo: Realizado a compañeras del Squads; tomando feedback de mejoras (Realizado con el prototipo  de Contenido).
