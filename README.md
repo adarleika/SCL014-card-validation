@@ -11,8 +11,10 @@ RESEARCH: En esta etapa, identificamos a nuestros usuarios (Hombres y Mujeres, u
 Revisamos y estudiamos servicios similares que están presentes hoy en el mercado (stakeholders).
 
 SÍNTESIS Y DEFINICIÓN: En base a lo anterior, buscamos entender las necesidades de los usuarios de nuestra aplicación, al cual estaba dirigido el producto. Revisamos algunas publicaciones en bases de datos para saber y conocer mejor el perfil de los usuarios de E-commerce, especialmente en Chile, y en el rubro de supermercados. De aquí sacamos varias ideas de grupos etarios principalmente. Realizamos los primeros diagramas de flujo que definieran las líneas para satisfacer la necesidad de usuario, y para saber gráficamente como nuestro producto solucionaría el problema de estos usuarios.
-Primeros diagramas de flujo: https://imgur.com/oXc3Vzv  ![diagrama1](https://user-images.githubusercontent.com/49289372/85343723-9599f380-b4bb-11ea-9a6e-10577eb0d526.png)
-Segundo  diagramas de flujo:  https://imgur.com/CDHhPeo
+# Primeros diagramas de flujo:  
+![diagrama1](https://user-images.githubusercontent.com/49289372/85343723-9599f380-b4bb-11ea-9a6e-10577eb0d526.png)
+# Segundo  diagramas de flujo:  
+![diagrama2](https://user-images.githubusercontent.com/49289372/85343763-b06c6800-b4bb-11ea-8cdc-9c478280412a.png)
 
 
 IDEACIÓN: En este punto y ya con más conocimiento de nuestros usuarios, empezamos a realizar un Brainstorming de lo que podríamos realizar. Fijando siempre nuestra atención en lo que está haciendo la competencia (Benchmarking). Esto especialmente nos fue complicado de definir; ¿quién sería nuestro competencia directa?, ya que no hay muchas aplicaciones en el mercado de este tipo, por lo que decidimos basarnos en la información que nos muestra el buscador de GOOGLE, buscando las palabras claves de “validador de Tarjetas de crédito”. Observamos lo que estaba haciendo nuestra competencia. 
