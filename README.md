@@ -20,7 +20,8 @@ https://herramientas-online.com/validar-tarjeta-credito.html
 https://generatarjetasdecredito.com/validar-tarjeta-de-credito.php
 https://www.vccgenerator.com/es/validador-de-tarjeta-de-credito/
 
-PROTOTIPADO: Elaboramos los prototipos que nos permitieron probar nuestras ideas con los usuarios.
+# PROTOTIPADO: 
+Elaboramos los prototipos que nos permitieron probar nuestras ideas con los usuarios.
 
 1.	En lápiz  y papel = Prototipado de Contenido 
 Primeros prototipo de contenido: https://imgur.com/F4eP60W
@@ -50,7 +51,6 @@ Tercer testeo: Ya con el prototipo de alta fidelidad; realizado a otros familiar
 RESUMEN DEL FEEDBACK RECIBIDO: Desde el primer feedback estuvimos recibiendo y escuchando las mejoras que nos proponían, así como también considerando las cosas que les parecían atractivas.  En resumen en esta etapa, pudimos ver que los primeros prototipos, resultaban poco atractivos para nuestros usuarios, en algunos casos hasta confusos, porque no sabían si se podría interactuar sobre la imagen de la tarjeta. Es por ello que avanzamos incorporando la figura de un formulario, para que ellos puedan llenar, y a su vez ver que sus datos se reflejaran en la imagen de la tarjeta. 
 Por otra parte nos mencionaron que la aplicación  resultaba muy poco interactiva, es por ello que incorporamos movimiento a través de botones, que despliegan el formulario cuando se accede a ellos, y también imágenes de los tipos de marca de tarjeta para que el usuario viera que hay conexión con los datos que va ingresando. 
 
-# Imagen final del proyecto:
 Con el Figma se realizo esta imagen del proyecto para protopipo
 https://www.figma.com/file/sp9IPJYRkAlY05nMA7XsnY/Tarjeta-de-Credito?node-id=0%3A1
 
@@ -64,7 +64,7 @@ https://adarleika861925.invisionapp.com/overview/TDC-ckbmzbw8u0ls5015zckwm9jh5/s
 • Ocultar todos los dígitos de su número de tarjeta menos los últimos 4 caracteres.
 • No debe poder ingresar un campo vacío.
 
-
+# Imagen final del proyecto:
 
 
 ![page](https://user-images.githubusercontent.com/49289372/85327094-5c05c000-b49c-11ea-960c-7e935e008cfa.png)
