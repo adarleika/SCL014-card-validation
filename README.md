@@ -11,7 +11,7 @@ RESEARCH: En esta etapa, identificamos a nuestros usuarios (Hombres y Mujeres, u
 Revisamos y estudiamos servicios similares que están presentes hoy en el mercado (stakeholders).
 
 SÍNTESIS Y DEFINICIÓN: En base a lo anterior, buscamos entender las necesidades de los usuarios de nuestra aplicación, al cual estaba dirigido el producto. Revisamos algunas publicaciones en bases de datos para saber y conocer mejor el perfil de los usuarios de E-commerce, especialmente en Chile, y en el rubro de supermercados. De aquí sacamos varias ideas de grupos etarios principalmente. Realizamos los primeros diagramas de flujo que definieran las líneas para satisfacer la necesidad de usuario, y para saber gráficamente como nuestro producto solucionaría el problema de estos usuarios.
-Primeros diagramas de flujo: https://imgur.com/oXc3Vzv
+Primeros diagramas de flujo: https://imgur.com/oXc3Vzv  ![diagrama1](https://user-images.githubusercontent.com/49289372/85343723-9599f380-b4bb-11ea-9a6e-10577eb0d526.png)
 Segundo  diagramas de flujo:  https://imgur.com/CDHhPeo
 
 
